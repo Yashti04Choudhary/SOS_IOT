@@ -352,7 +352,7 @@ void handleCallButton(){
 
         callStartBeep();
 
-        sim800.println("ATD+919340025212;");
+        sim800.println("ATD+91xxxxxxxxx;");
 
         callActive = true;
       }
@@ -385,7 +385,7 @@ void sendSMS(String msg){
 
   delay(600);
 
-  sim800.println("AT+CMGS=\"+919340025212\"");
+  sim800.println("AT+CMGS=\"+91xxxxxxxxx\"");
 
   delay(600);
 
